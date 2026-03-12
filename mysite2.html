@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Sign-Up Page</title>
+    <link rel="stylesheet" href="css/responsive.css">
+    <li><a href="mysite2.html">HTML5 Validation</a></li>
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="top">
+            <ul class="menu">
+                <li><a href="Browser.html">Browser</a></li>
+                <li><a href="HTTP.html">HTTP</a></li>
+                <li><a href="https://www.osu.edu"> The Ohio State University</a></li>
+                <li><a href="http://library.osu.edu"> Ohio state University Libraries</a></li>
+                <li><a href="https://carmen.osu.edu"> OSU Carmen</a></li>
+                <li><a href="https://www.w3schools.com"> W3Schools web tutorials</a></li>                
+            </ul>
+        </header>
+
+        <main>
+            <p>Please fill in the form below to create your account.</p>
+                <h2>
+                    Sign-Up Form
+                </h2>
+            
+                <form action="#" method="post">                
+                    <div>
+                        <label for="fullName">Full Name:</label><br>
+                        <input id="fullName" type="text" name="fullName" required minlength="5" maxlength="20">
+                    </div>
+
+                    <div>
+                        <label for="emailAddress">Email Address:</label><br>
+                        <input id="emailAddress" type="email" name="emailAddress"
+                        required
+                        minlength="8"
+                        maxlength="30"
+                        pattern="[a-z]+\.[1-9][0-9]*@osu\.edu"
+                        >
+                    </div>
+
+                    <div>
+                        <label for="phoneNumber">Phone Number:</label><br>
+                        <input id="phoneNumber" type="tel" name="phoneNumber" placeholder="123-456-7890"
+                        required
+                        pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                        >
+                    </div>
+
+                    <div>
+                        <label for="passWord">Password:</label><br>
+                        <input id="passWord" type="password" name="passWord"
+                        required
+                        minlength="5"
+                        maxlength="20"
+                        >
+                    </div>
+
+                    <div>
+                        <button type="submit">Sign Up</button>
+                    </div>
+                </form>
+        </main>
+
+        <p class="sidebar">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda 
+            dignissimos officiis voluptate eum voluptatum adipisci fugiat consectetur 
+            in eligendi error iusto doloribus blanditiis, possimus tempore est, dolorem 
+            minima rem laborum eveniet, quod deleniti sint! Deleniti quidem quo soluta 
+            tenetur sequi quam magni accusamus mollitia quaerat corporis consectetur vel 
+            impedit aliquid ab atque deserunt error alias eaque tempora, praesentium 
+            ea distinctio amet placeat! Laboriosam cum eius possimus quo nostrum, 
+            voluptatibus reiciendis est praesentium at, alias vel iste molestiae 
+            exercitationem itaque quae facilis? Enim facilis aliquam neque dolore corporis 
+            culpa, dignissimos ipsum vitae ab assumenda ex exercitationem deserunt blanditiis 
+            nesciunt tenetur, adipisci deleniti totam, quisquam harum officia. Quo rem natus 
+            commodi officiis recusandae repudiandae ex doloribus praesentium porro repellendus, 
+            veritatis blanditiis aperiam?
+            
+            <img src="images/brianna-parks-GsDL8h0KIv8-unsplash.jpg" class="my-image" alt="Sample image">
+        </p>
+
+        <footer id="footer">
+            © 2026 Conner Liu · liu.12164@osu.edu
+        </footer>
+    </div>
+</body>
+
+</html>
