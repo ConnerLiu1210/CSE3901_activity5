@@ -47,7 +47,6 @@ body {
   "main"
   "sidebar"
   "footer";
-    /*Your code goes here*/
   gap: 1rem;
   padding: 1rem;
 }
@@ -55,7 +54,6 @@ body {
 /* Areas */
 .top {
   grid-area: top;
-    /*Your code goes here*/
   background: rgb(239, 115, 84);
   padding: 1rem;
   text-align: left;
@@ -67,7 +65,6 @@ body {
   background-color: aquamarine;
   padding: 1rem;
   border-radius: 8px;
-    /*Your code goes here*/
 }
 
 main {
@@ -78,7 +75,6 @@ main {
 
 #footer {
   grid-area:footer;
-  /*Your code goes here*/
   background: #222;
   color: white;
   text-align: center;
@@ -138,12 +134,10 @@ button:hover {
   body {
     border-style: solid;
     background-color: royalblue;
-    /*Your code goes here*/
   }
 
   .top {
         background-color: rgb(212, 121, 10);
-    /*Your code goes here*/
   }
 
   .wrapper {
@@ -164,7 +158,6 @@ button:hover {
     "top top top"
     "main main sidebar"
     "footer footer footer";
-      /*Your code goes here*/
   }
 
   .wrapper>* {
